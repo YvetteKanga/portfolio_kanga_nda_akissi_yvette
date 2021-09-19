@@ -55,6 +55,24 @@ body{
   }
  
 }
+@media(max-width: 800px){
+  .menu{
+    display: flex;
+    /* flex-wrap: wrap; */
+    font-size: 15px;
+    z-index: 10;
+  }
+  .menu_droit{
+    margin-left: 5px;
+  }
+  .menu_droit:last-child{
+    margin-right: 15px;
+  }
+  .menu_gauche{
+    margin-left: 10px;
+  }
+ 
+}
 
 /* *************************************accueil******************************************************* */
 .entete{
@@ -275,12 +293,11 @@ h1{
     
 }
 @media (max-width: 800px){
+  
   .mois_comp{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    
-    
   }
   .mois_font{
     margin-top: 0px;
@@ -463,6 +480,7 @@ h1{
       .tel{
         width: 30px;
         height: 30px;
+        
       }
     .contact_contact{
       margin-top: 0px;
@@ -477,7 +495,6 @@ h1{
       padding-left: 15px;
       width: 40px;
       height: 40px;
-      margin-right: 20px;
     }
     .input1{
       width: 300px;
@@ -496,7 +513,105 @@ h1{
       height: 25px;
     }
 }
-  
+@media (max-width: 600px){
+    
+  .call{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-top: -50px;
+    
+    }
+    .mail{
+      width: 30px;
+      height: 30px;
+    }
+    .tel{
+      width: 30px;
+      height: 30px;
+      
+    }
+  .contact_contact{
+    margin-top: 0px;
+  }
+  .tel1{
+    margin-top: 45px;
+    font-size: 20px;
+  }
+ 
+  .reso{
+    margin-top: 10px;
+    padding-left: 15px;
+    width: 40px;
+    height: 40px;
+  }
+  .input1{
+    width: 300px;
+    height: 25px;
+  }
+  .input2{
+    width: 300px;
+    height: 140px;
+  }
+  .input3{
+    width: 300px;
+    height: 25px;
+  }
+  button{
+    width: 300px;
+    height: 25px;
+  }
+}
+@media (max-width: 800px){
+    
+  .call{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-top: -50px;
+    
+    }
+    .mail{
+      width: 30px;
+      height: 30px;
+    }
+    .tel{
+      width: 30px;
+      height: 30px;
+      
+    }
+  .contact_contact{
+    margin-top: 0px;
+  }
+  .tel1{
+    margin-top: 45px;
+    font-size: 20px;
+    margin-left: -100px;
+  }
+ 
+  .reso{
+    margin-top: 10px;
+    padding-left: 15px;
+    width: 40px;
+    height: 40px;
+  }
+  .input1{
+    width: 300px;
+    height: 25px;
+  }
+  .input2{
+    width: 300px;
+    height: 140px;
+  }
+  .input3{
+    width: 300px;
+    height: 25px;
+  }
+  button{
+    width: 300px;
+    height: 25px;
+  }
+}
   
 
   /* footer */
